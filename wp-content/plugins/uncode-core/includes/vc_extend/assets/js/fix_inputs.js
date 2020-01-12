@@ -156,22 +156,40 @@
 			if ($input.hasClass("medium_width") || $input.hasClass("mobile_width")) {
 				switch (parseInt($value)) {
 					case 1:
-						$marker.html('2/12');
+						$marker.html('1/12');
 						break;
 					case 2:
-						$marker.html('3/12');
+						$marker.html('2/12');
 						break;
 					case 3:
-						$marker.html('4/12');
+						$marker.html('3/12');
 						break;
 					case 4:
-						$marker.html('6/12');
+						$marker.html('4/12');
 						break;
 					case 5:
-						$marker.html('8/12');
+						$marker.html('5/12');
 						break;
 					case 6:
+						$marker.html('6/12');
+						break;
+					case 7:
+						$marker.html('7/12');
+						break;
+					case 8:
+						$marker.html('8/12');
+						break;
+					case 9:
 						$marker.html('9/12');
+						break;
+					case 10:
+						$marker.html('10/12');
+						break;
+					case 11:
+						$marker.html('11/12');
+						break;
+					case 12:
+						$marker.html('12/12');
 						break;
 				}
 			} else if ($input.hasClass("gutter_size")) {

@@ -2867,17 +2867,28 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
 }
 @media (min-width: 570px) and (max-width: 959px) {
   .col-md-100,
+  .col-md-91,
+  .col-md-83,
   .col-md-75,
   .col-md-66,
+  .col-md-58,
   .col-md-50,
+  .col-md-41,
   .col-md-33,
   .col-md-25,
-  .col-md-16 {
+  .col-md-16,
+  .col-md-8 {
     display: inline-table;
     table-layout: fixed;
   }
   .col-md-100 {
     width: 100%;
+  }
+  .col-md-91 {
+    width: 91.66666665902778%;
+  }
+  .col-md-83 {
+    width: 83.333333333333%;
   }
   .col-md-75 {
     width: 75%;
@@ -2885,8 +2896,14 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
   .col-md-66 {
     width: 66.666666667%;
   }
+  .col-md-58 {
+    width: 58.33284722627311%;
+  }
   .col-md-50 {
     width: 50%;
+  }
+  .col-md-41 {
+    width: 41.6666666666667%;
   }
   .col-md-33 {
     width: 33.33333333%;
@@ -2897,15 +2914,23 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
   .col-md-16 {
     width: 16.666666667%;
   }
+  .col-md-8 {
+    width: 8.33333333333%;
+  }
 }
 @media (max-width: 570px) {
   .col-sm-100,
+  .col-sm-91,
+  .col-sm-83,
   .col-sm-75,
   .col-sm-66,
+  .col-sm-58,
   .col-sm-50,
+  .col-sm-41,
   .col-sm-33,
   .col-sm-25,
-  .col-sm-16 {
+  .col-sm-16,
+  .col-sm-8 {
     display: inline-table;
     table-layout: fixed;
   }
@@ -2921,14 +2946,26 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
   .col-sm-100 {
     width: 100%;
   }
+  .col-sm-91 {
+    width: 91.66666665902778%;
+  }
+  .col-sm-83 {
+    width: 83.333333333333%;
+  }
   .col-sm-75 {
     width: 75%;
   }
   .col-sm-66 {
     width: 66.666666667%;
   }
+  .col-sm-58 {
+    width: 58.33284722627311%;
+  }
   .col-sm-50 {
     width: 50%;
+  }
+  .col-sm-41 {
+    width: 41.666666666666%;
   }
   .col-sm-33 {
     width: 33.33333333%;
@@ -2937,7 +2974,10 @@ body.compose-mode .main-container .uncode-scroll-visible.add-zoomout .t-backgrou
     width: 25%;
   }
   .col-sm-16 {
-    width: 16.666666667%;
+    width: 16.66666666%;
+  }
+  .col-sm-8 {
+    width: 8.33333333333%;
   }
 }
 .col-link {

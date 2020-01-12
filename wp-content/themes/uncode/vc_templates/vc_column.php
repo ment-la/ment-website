@@ -248,30 +248,50 @@ $col_perc_md = $col_perc_sm = 0;
 
 switch ($medium_width) {
 	case 1:
+		$col_classes[] = 'col-md-8';
+		$col_perc_md = 100/12;
+	break;
+	case 2:
 		$col_classes[] = 'col-md-16';
 		$col_perc_md = 100/6;
 	break;
-	case 2:
+	case 3:
 		$col_classes[] = 'col-md-25';
 		$col_perc_md = 25;
 	break;
-	case 3:
+	case 4:
 		$col_classes[] = 'col-md-33';
 		$col_perc_md = 100/3;
 	break;
-	case 4:
+	case 5:
+		$col_classes[] = 'col-md-41';
+		$col_perc_md = 100/2.4;
+	break;
+	case 6:
 		$col_classes[] = 'col-md-50';
 		$col_perc_md = 50;
 	break;
-	case 5:
+	case 7:
+		$col_classes[] = 'col-md-58';
+		$col_perc_md = 100/1.7143;
+	break;
+	case 8:
 		$col_classes[] = 'col-md-66';
 		$col_perc_md = 100/1.5;
 	break;
-	case 6:
+	case 9:
 		$col_classes[] = 'col-md-75';
 		$col_perc_md = 75;
 	break;
-	case 7:
+	case 10:
+		$col_classes[] = 'col-md-83';
+		$col_perc_md = 100/1.2;
+	break;
+	case 11:
+		$col_classes[] = 'col-md-91';
+		$col_perc_md = 100/1.090909091;
+	break;
+	case 12:
 		$col_classes[] = 'col-md-100';
 		$col_perc_md = 100;
 	break;
@@ -282,30 +302,50 @@ if ( $row_cols_md_counter >= 100 ) {
 
 switch ($mobile_width) {
 	case 1:
+		$col_classes[] = 'col-sm-8';
+		$col_perc_md = 100/12;
+	break;
+	case 2:
 		$col_classes[] = 'col-sm-16';
 		$col_perc_sm = 100/6;
 	break;
-	case 2:
+	case 3:
 		$col_classes[] = 'col-sm-25';
 		$col_perc_sm = 25;
 	break;
-	case 3:
+	case 4:
 		$col_classes[] = 'col-sm-33';
 		$col_perc_sm = 100/3;
 	break;
-	case 4:
+	case 5:
+		$col_classes[] = 'col-sm-41';
+		$col_perc_md = 100/2.4;
+	break;
+	case 6:
 		$col_classes[] = 'col-sm-50';
 		$col_perc_sm = 50;
 	break;
-	case 5:
+	case 7:
+		$col_classes[] = 'col-sm-58';
+		$col_perc_md = 100/1.7143;
+	break;
+	case 8:
 		$col_classes[] = 'col-sm-66';
 		$col_perc_sm = 100/1.5;
 	break;
-	case 6:
+	case 9:
 		$col_classes[] = 'col-sm-75';
 		$col_perc_sm = 75;
 	break;
-	case 7:
+	case 10:
+		$col_classes[] = 'col-sm-83';
+		$col_perc_md = 100/1.2;
+	break;
+	case 11:
+		$col_classes[] = 'col-sm-91';
+		$col_perc_md = 100/1.090909091;
+	break;
+	case 12:
 		$col_classes[] = 'col-sm-100';
 		$col_perc_sm = 100;
 	break;
